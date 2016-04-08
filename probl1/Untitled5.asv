@@ -1,0 +1,7 @@
+function mx = Untitled5( pct,pas,m )
+    mx=zeros(m,m);
+    for i=1:m+1
+        for j=1:m+1
+            mx(=dif(k,pct+pas*i,pas);
+end
+

@@ -1,0 +1,10 @@
+function dif1 = dif( ord,pct,pas )
+%UNTITLED6 Summary of this function goes here
+%   Detailed explanation goes here
+    if(pas==1)
+        dif1=fct(pct+pas)-fct(pct);
+    else
+        dif1=dif(ord-1,pct+pas,pas)-dif(ord-1,pct,pas)
+    end
+end
+
